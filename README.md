@@ -1,6 +1,6 @@
 # Hundo Wiki: a wiki in less than a hundred lines of code
 
-The goal here was to make a really, really simple wiki in less than a hundred lines of Python code. The goal was achieved; depending on how you count, this uses either 54 lines (including blank lines, comments, etc.) or significantly less if you only count lines of actual code. It wasn't meant to be especially clear, but neither was it meant to be confusing. It stores wiki pages in text files in the `pages/` directory, shows them by URL, and auto-links anything that looks like a WikiWord in that nice CamelCase style. It uses Flask, but aside from that, has no other dependencies.
+The goal here was to make a really, really simple wiki in less than a hundred lines of Python code. The goal was achieved; depending on how you count, this uses either 54 lines (including blank lines, comments, etc.) or 44 if you only count lines of actual code. It wasn't meant to be especially clear, but neither was it meant to be confusing. It stores wiki pages in text files in the `pages/` directory, shows them by URL, and auto-links anything that looks like a WikiWord in that nice CamelCase style. It uses Flask, but aside from that, has no other dependencies.
 
     $ pip install flask
     $ python wiki.py
